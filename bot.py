@@ -15,7 +15,7 @@ logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
 TOKEN = "8380366880:AAGvTRPEnALZmSvXcxMaiLCwBvpLkj8yrgk"
-ADMIN_ID = 5262599520  # Замените на свой ID после проверки
+ADMIN_ID =  6864170180  
 
 class ProductState(StatesGroup):
     name = State()
