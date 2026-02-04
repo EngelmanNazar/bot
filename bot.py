@@ -10,17 +10,19 @@ from aiogram.fsm.state import State, StatesGroup
 from database import add_user, get_all_users, init_db
 from config import TOKEN 
 
-# Настройка логирования
+
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
-# Токен (оставьте ваш)
+
 TOKEN = "8380366880:AAGvTRPEnALZmSvXcxMaiLCwBvpLkj8yrgk"
 
-# ВРЕМЕННО: ID админа будет определяться автоматически
+
+
 ADMIN_ID = None
 
-# Состояния для создания товара
+
+
 class ProductState(StatesGroup):
     name = State()
     description = State()
