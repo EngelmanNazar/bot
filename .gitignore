@@ -1,0 +1,17 @@
+
+*.db
+*.sqlite3
+
+.env
+config.py
+secrets.py
+
+__pycache__/
+*.pyc
+*.pyo
+
+*.log
+
+
+.DS_Store
+Thumbs.db
